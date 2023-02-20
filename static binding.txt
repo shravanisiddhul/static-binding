@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+class Sum
+{
+    public:
+    int sum(int x,int y)
+    {
+        return x+y;
+    }
+   
+    int sum(int x,int y,int z)
+    {
+        return x+y+z;
+    }
+};
+int main()
+{
+    Sum S;
+    cout<<"Sum is:\n"<<S.sum(19,10)<<endl;
+    cout<<"Sum is:\n"<<S.sum(10,20,30)<<endl;
+    return 0;
+}
